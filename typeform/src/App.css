@@ -1,38 +1,221 @@
-.App {
-  text-align: center;
+
+::before, ::after {
+
+  box-sizing: border-box;
+
+}
+::placeholder {
+
+  color: #eceae6;
+  -moz-transition: color .4s;
+  transition: color .4s;
+
+}
+element {
+
+}
+body {
+
+  font-size: 16px;
+  font-size: 1.6rem;
+  background-color: #fff;
+  color: #000;
+  font-family: "LL Circular Pro Book Web","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
+
+}
+body {
+  line-height: 1;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, button {
+
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+      font-weight: inherit;
+      font-size: inherit;
+      line-height: inherit;
+      font-family: inherit;
+  vertical-align: baseline;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 62.5%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+body {
+  font-size: 16px;
+  font-size: 1.6rem;
+  background-color: #fff;
+  color: #000;
+  font-family: "LL Circular Pro Book Web","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.soh-header {
+  border-bottom: .1rem solid #eceae6;
+  width: 100%;
+}
+
+.header-top {
+  height: 100px;
+  padding: 0;
+  background-color: #fff;
+  margin: 0 auto;
+  max-width: 1440px;
+  overflow: hidden;
+  position: relative;
+}
+
+.header-logo{
+  font-size: 4rem;
+  padding: 0rem;
+  width: auto;
+  float: left;
+  height: 100px;
+  margin: 0;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  display: flex;
 }
 
-.App-link {
-  color: #61dafb;
+.header-logo a {
+  display: block;
+  height: 41px;
+  width: 195px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header-search {
+  border-left: 1px solid #eceae6;
+  border-left: .1rem solid #eceae6;
+  border-right: 1px solid #eceae6;
+  border-right: .1rem solid #eceae6;
+  padding: 38px 30px 30px 30px;
+  padding: 3.8rem 3rem 3rem 3rem;
+  float: left;
+  height: 100px;
+  transform: translateY(0);
+  width: auto;
 }
+
+.search-container ::placeholder {
+  color: #9a9a9a;
+  font-size: 1.8rem;
+}
+
+.search-container :placeholder-shown {
+  color: #9a9a9a;
+  font-size: 1.8rem;
+}
+
+.search-container input {
+  width: 18rem;
+  line-height: normal;
+}
+
+.search-container input {
+  padding-bottom: 10px;
+  padding-bottom: 1rem;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid #000;
+  border-radius: 0;
+  float: left;
+  outline: 0;
+  width: calc(100% - 4.6rem - 3rem);
+}
+
+.search-container button {
+  padding-right: 0;
+  margin-left: 0;
+  background-color: #fff;
+  border: 0;
+  float: left;
+  width: 4.6rem;
+}
+
+.header-menu{
+  padding: 0 1rem;
+  float: left;
+  font-family: "LL Circular Pro Bold Web",Arial,Helvetica,sans-serif;
+  height: 100px;
+  overflow: hidden;
+  padding-right: 2.5rem;
+  border-top: 0;
+  clear: none;
+  width: 650px;
+  padding-left: 2.5rem;
+}
+
+.header-menu ul {
+  justify-content: space-evenly;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+.header-menu ul li {
+  margin: 0;
+  padding: 0 4px 0 0;
+  text-align: left;
+}
+
+.header-menu ul li a{
+  color: #000;
+  font-family: "LL Circular Pro Bold Web",Arial,Helvetica,sans-serif;
+  text-decoration: none;
+  padding-top: 40px;
+  display: flex;
+  height: 100%;
+}
+
+a {
+  background-color: transparent;
+}
+
+.header-top .header-icon{
+  padding: 2rem 0;
+  position: relative;
+  display: block;
+  text-align: center;
+  border-left: .1rem solid #eceae6;
+  float: left;
+  height: 100%;
+  width: 95px;
+}
+
+.header-login {
+  display: block;
+  text-decoration: none;
+  color: #9a9a9a;
+  font-size: 1.4rem;
+  padding-top: .6rem;
+}
+
+.hero{
+  height: 720px;
+  width: 100%;
+  background-color: #000;
+}
+
+.hero h1{
+  
+}
+
+.hero p{
+
+}
+
+
