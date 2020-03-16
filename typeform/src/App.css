@@ -210,12 +210,27 @@ a {
   background-color: #000;
 }
 
+.hero-container {
+  width: 1180px;
+  margin: 0 auto;
+  padding: 0 3rem;
+  padding-top: 180px;
+}
+
 .hero h1{
-  
+  color: white;
+  font-size: 16rem;
+  font-family: "LL Circular Pro Black Web",Arial,Helvetica,sans-serif;
+  line-height: 1em;
+  font-weight: 600;
 }
 
 .hero p{
-
+  color: white;
+  font-family: "LL Circular Pro Black Web",Arial,Helvetica,sans-serif;
+  line-height: 2em;
+  font-weight: 600;
+  
 }
 
 

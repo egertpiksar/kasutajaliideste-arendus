@@ -68,8 +68,13 @@ function App() {
         </div>
         {/* video */}
         <div className="hero">
-            <h1>Welcome to our House</h1>
+          <div className="hero-container">
+            <div style={{width: "80%"}}>
+              <h1>Welcome to our House</h1>
             <p>A place to take in a spectacular horizon, then broaden your own.</p>
+            </div>
+            
+          </div>
         </div>
     </div>
   );
