@@ -70,11 +70,21 @@ function App() {
         <div className="hero">
           <div className="hero-container">
             <div style={{width: "80%"}}>
-              <h1>Welcome to our House</h1>
-            <p>A place to take in a spectacular horizon, then broaden your own.</p>
+                <h1>Welcome to our House</h1>
+                <p>A place to take in a spectacular horizon, then broaden your own.</p>
             </div>
-            
           </div>
+
+          
+        </div>
+        
+        <div className="information">
+            <div className="information-container">
+              <h1>COVID-19 Novel Coronavirus information</h1>
+              <p style={{marginTop: "50px", position: "relative"}}><a><span className="btn btn-secondary btn-lg">
+                  READ UPDATE
+              </span></a></p>
+            </div>
         </div>
     </div>
   );

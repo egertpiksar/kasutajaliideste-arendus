@@ -230,7 +230,57 @@ a {
   font-family: "LL Circular Pro Black Web",Arial,Helvetica,sans-serif;
   line-height: 2em;
   font-weight: 600;
-  
 }
+
+.information{
+  height: 220px;
+  background-color: #eceae6;
+}
+
+.information-container{
+  margin: 0 auto;
+  max-width: 1180px;
+  position: relative;
+  padding: 2rem;
+}
+
+.information-container h1{
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  font-size: 3.5rem;
+  display: block;
+  font-family: "LL Circular Pro Black Web",Arial,Helvetica,sans-serif;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.information-container p{
+  font-size: 1.8rem;
+  text-align: center;
+  line-height: 1.7;
+  margin: 2.7rem 0;
+}
+.btn{
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.btn-secondary {
+
+  border: .2rem solid #000;
+  font-size: 1.6rem;
+  letter-spacing: .25rem;
+  margin: 2rem 0 0;
+  padding: 1.5rem 4rem;
+  font-family: "LL Circular Pro Bold Web",Arial,Helvetica,sans-serif;
+  line-height: 1.2em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
 
 
