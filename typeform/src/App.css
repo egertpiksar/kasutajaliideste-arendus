@@ -233,7 +233,7 @@ a {
 }
 
 .information{
-  height: 220px;
+  height: 340px;
   background-color: #eceae6;
 }
 
@@ -281,6 +281,92 @@ a {
   text-transform: uppercase;
 }
 
+.news{
+  width: 100%;
+  height: 435px;
+  background-color: #fff;
+}
 
+.news .news-container{
+  margin: 0 auto;
+  max-width: 1180px;
+  position: relative;
+  display: flex;
+}
+
+.news .news-container .left-container{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 41%;
+  margin-top: 110px;
+}
+
+.news .news-container .right-container{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 50%;
+  margin-top: 110px;
+}
+
+.news .news-container .right-container ul li{
+  line-height: 2;
+}
+
+.black-information{
+  height: 250px;
+  background-color: black;
+}
+
+.proud-home{
+  background-color: white;
+  height: 450px;
+}
+
+.white-information{
+  background-color: white;
+  border-top: 1px solid gray;
+}
+.row1{
+  display: flex;
+}
+
+.row1 .item{
+  padding: 2rem;
+  min-width: 14%;
+  justify-content: space-between;
+  margin: auto;
+  text-align: center;
+  width: 33%;
+}
+
+.row1 .item img{
+  margin: 0 auto;
+  display: block;
+  height: auto;
+}
+
+.row2{
+  display: flex;
+}
+
+.row2 .item{
+  padding: 2rem;
+  min-width: 14%;
+  justify-content: space-between;
+  margin: auto;
+  text-align: center;
+  width: 33%;
+}
+
+.row2 .item img{
+  margin: 0 auto;
+  display: block;
+  height: auto;
+}
+
+.footer{
+  background-color: #eceae6;
+  height: 185px;
+}
 
 
