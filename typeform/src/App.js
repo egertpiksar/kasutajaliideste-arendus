@@ -35,7 +35,7 @@ function App() {
                 <div className="search-container">
                     <input id="search" placeholder="Search for ..."></input>
                     <button className="search-button">
-                        <img src={searchIcon} style={{paddingLeft: "20px"}}></img>
+                        <img src={searchIcon} alt="img" style={{paddingLeft: "20px"}}></img>
                     </button>
                 </div>
             </div>
@@ -70,13 +70,13 @@ function App() {
             </nav>
             {/* login and cart */}
             <div className="header-icon header-login">
-                <img src={login} ></img>
-                <a href="" className="header-login login">Login</a>
+                <img src={login} alt="img"></img>
+                <a href="/" className="header-login login">Login</a>
             </div>
 
             <div className="header-icon header-shopping">
-                <img src={cart} style={{mariginTop: "-3px"}} ></img>
-                <a href="" className="header-login shop">Cart</a>
+                <img src={cart} style={{mariginTop: "-3px"}} alt="img" ></img>
+                <a href="/" className="header-login shop">Cart</a>
             </div>
         </div>
         {/* video */}
@@ -95,9 +95,9 @@ function App() {
             <div className="information-container">
               <h1 style={{fontWeight: "600"}}>COVID-19 Novel Coronavirus information</h1>
               <h3 style={{textAlign: "center", fontSize: "2.5rem", fontWeight: "600"}}>Nothing is more important to us than the health and safety of our artists, audiences, visitors and our valued staff</h3>
-              <p style={{marginTop: "50px", position: "relative"}}><a><span className="btn btn-secondary btn-lg">
+              <p style={{marginTop: "50px", position: "relative"}}><span className="btn btn-secondary btn-lg">
                   READ UPDATE
-              </span></a></p>
+              </span></p>
             </div>
         </div>
 
@@ -113,9 +113,9 @@ function App() {
                       <li>Special offers on a range of events and experiences</li>
                       <li>The latest news and stories from Backstage and beyond</li>                  
                     </ul>
-                    <p style={{marginTop: "50px", position: "relative"}}><a><span className="btn btn-secondary btn-lg">
+                    <p style={{marginTop: "50px", position: "relative"}}><span className="btn btn-secondary btn-lg">
                   SIGN UP
-                </span></a></p>
+                </span></p>
                 </div>
             </div>
         </div>
@@ -173,7 +173,7 @@ function App() {
         <div className="white-information">
             <div className="information-container">
               <h3 style={{textAlign: "center", fontSize: "2.5rem", fontWeight: "600", color: "black", paddingTop: "60px", paddingBottom: "60px"}}>
-                      The Sydney Opera House thanks its family of <a style={{color: "#333", textDecoration: "underline"}}>Corporate Partners</a> for their support
+                      The Sydney Opera House thanks its family of <a href="/" style={{color: "#333", textDecoration: "underline"}}>Corporate Partners</a> for their support
                   </h3>
             </div>
         </div>
@@ -240,32 +240,32 @@ function App() {
 
             <div className="col column2">
               <ul>
-                <li><a>Give</a></li>
-                <li><a>Insider Membership</a></li>
-                <li><a>About Us</a></li>
-                <li><a>Prizes & Scholarships</a></li>
-                <li><a>Travel Trade</a></li>
+                <li><a href="/">Give</a></li>
+                <li><a href="/">Insider Membership</a></li>
+                <li><a href="/">About Us</a></li>
+                <li><a href="/">Prizes & Scholarships</a></li>
+                <li><a href="/">Travel Trade</a></li>
 
-                <li><a>Careers</a></li>
-                <li><a>Newsletter</a></li>
-                <li><a>Contact Us</a></li>
-                <li><a>Gift Vouchers</a></li>
-                <li><a>Media</a></li>
-                <li><a>Venue Hire</a></li>
+                <li><a href="/">Careers</a></li>
+                <li><a href="/">Newsletter</a></li>
+                <li><a href="/">Contact Us</a></li>
+                <li><a href="/">Gift Vouchers</a></li>
+                <li><a href="/">Media</a></li>
+                <li><a href="/">Venue Hire</a></li>
 
-                <li><a>Accessibility</a></li>
-                <li><a>Feedback</a></li>
-                <li><a>First Nations</a></li>
+                <li><a href="/">Accessibility</a></li>
+                <li><a href="/">Feedback</a></li>
+                <li><a href="/">First Nations</a></li>
 
 
               </ul>
             </div>
 
             <div className="col column3">
-                <a style={{fontWeight: "bold"}}>Sitemap</a>
+                <a href="/" style={{fontWeight: "bold"}}>Sitemap</a>
                 <ul>
-                  <li><a style={{color: "#646565"}}>Website Terms of Use</a></li>
-                  <li><a style={{color: "#646565"}}>Privacy</a></li>
+                  <li><a href="/" style={{color: "#646565"}}>Website Terms of Use</a></li>
+                  <li><a href="/" style={{color: "#646565"}}>Privacy</a></li>
                 </ul>
             </div>
           </div>

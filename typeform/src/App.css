@@ -442,4 +442,7 @@ a {
   font-weight: 600;
 }
 
-
+.col.column2 ul li a{
+  color: black;
+  text-decoration: none;
+}
