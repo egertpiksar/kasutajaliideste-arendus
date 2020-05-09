@@ -80,11 +80,11 @@ function App() {
         {/* header */}
         <div className="header-top">
             {/* logo*/}
-            <h1 className="header-logo">
+            <div className="header-logo">
                 <a href="/">
                     <img className="img-svg" src={sydneyOperaHouse} alt="Sydney Opera House" aria-hidden="true"></img>
                 </a>
-            </h1>
+            </div>
             {/* search */}
             <div className="header-search">
                 <div className="search-container">
@@ -200,7 +200,7 @@ function App() {
               </h3>
               <div className="row1">
                   <div className="item">
-                    <img src={aco} alt="pilt" height={75} width={255}></img>
+                    <img src={aco} alt="pilt" className="aco" height={75} width={255}></img>
                   </div> 
                   <div className="item">
                   <img src={bangarra} alt="pilt"></img>
@@ -222,11 +222,11 @@ function App() {
                   </div>
 
                   <div className="item" >
-                    <img src={tab} alt="pilt" height={100} width={255}></img>
+                    <img src={tab} alt="pilt" className="tab" height={100} width={255}></img>
                   </div>
 
                   <div className="item" >
-                    <img src={spc} height={61} width={255} alt="pilt"></img>
+                    <img src={spc} className="spc" height={61} width={255} alt="pilt"></img>
                   </div>
               </div>
             </div>
