@@ -1,4 +1,5 @@
-Website https://www.sydneyoperahouse.com/ home page clone.
+Website https://www.sydneyoperahouse.com/ home page clone. This page is made as it was a few months ago.
+Page is also responsive and viewable on mobile.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
