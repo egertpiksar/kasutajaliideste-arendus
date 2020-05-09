@@ -71,7 +71,7 @@ body {
   margin: 0 auto;
   max-width: 1440px;
   overflow: hidden;
-  position: relative;
+  /*position: relative;*/
 }
 
 .header-logo{
@@ -442,4 +442,100 @@ a {
 .col.column2 ul li a{
   color: black;
   text-decoration: none;
+}
+
+.hamburger{
+ position: relative;
+ float: right;
+ margin-top: 35px;
+ margin-right: 35px;
+ cursor: pointer;
+ display: none;
+}
+
+.hamburger .line{
+  height: 3px;
+  width: 25px;
+  margin: 5px;
+  background-color: black;
+}
+
+.right-sidebar-overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0, .2);
+  display: none;
+}
+
+.right-sidebar-overlay.is-active{
+  display: block;
+}
+
+.right-sidebar{
+  height: 100%;
+  width: 0px;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  right: 0;
+  border-left: 3px solid white;
+  z-index: 999;
+  transition: all 2s ease;
+}
+
+.right-sidebar.is-active{
+  width: 500px;
+}
+
+.right-sidebar nav ul{
+  text-decoration: none;
+  list-style: none;
+}
+
+.right-sidebar nav ul li{
+  padding: 3rem 4.5rem 3rem 4.5rem;
+  border-bottom: 2px solid #424242;
+  text-decoration: none;
+  
+}
+
+.right-sidebar nav ul li a{
+  color: white;
+  font-family: "LL Circular Pro Bold Web", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.close-sidebar-btn{
+  font-weight: 600;
+  color: white;
+  font-size: 32px;
+  margin-top: 25px;
+  margin-left: 437px;
+  position: absolute;
+}
+
+
+/* RESPONSIVNESS */
+
+/* Kui width on väikseim kui 1400px */
+@media only screen and (max-width: 1400px) {
+  .header-menu {
+    display: none;
+  }
+
+  .header-icon.header-login{
+    display: none;
+  }
+
+  .header-icon.header-shopping{
+    display: none;
+  }
+
+  .hamburger{
+    display: block;
+  }
 }
